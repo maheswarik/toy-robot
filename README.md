@@ -3,6 +3,8 @@
 This is a command line Java application that simulates a robot
 on a specifiable grid
 
+This is a test Readme file
+
 ## Description
 
 - The application is a simulation of a toy robot moving on a square tabletop,
