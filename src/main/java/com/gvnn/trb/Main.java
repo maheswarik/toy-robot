@@ -11,9 +11,11 @@ public class Main {
     public static void main(String[] args) {
 
         Console console = System.console();
+        System.out.println("My test commit");
 
         if (console == null) {
             System.err.println("No console.");
+            System.err.println("Nothing to show");
             System.exit(1);
         }
 
@@ -23,6 +25,7 @@ public class Main {
 
         System.out.println("Toy Robot Simulator");
         System.out.println("Enter a command, Valid commands are:");
+        System.out.println("My test commit");
         System.out.println("\'PLACE X,Y,NORTH|SOUTH|EAST|WEST\', MOVE, LEFT, RIGHT, REPORT or EXIT");
 
         boolean keepRunning = true;
